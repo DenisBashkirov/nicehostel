@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    @include('frontend.sources.styles.blade.php')
+    @include('frontend.sources.styles')
 
 </head>
 <body>
