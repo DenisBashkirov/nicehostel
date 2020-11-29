@@ -1,9 +1,10 @@
 <div class="features">
     <div class="container">
 
-        <div class="features-list grid">
+        <div class="features-list grid xs-sm:grid-cols-2 md-xl:grid-cols-4 gap">
 
-            <object data="{{ asset('svg/features/comfort.svg') }}" type="image/svg+xml"></object>
+            <x-frontend.components.features-list.item icon="comfort" text="Комфортные номера"/>
+
 
         </div>
 
