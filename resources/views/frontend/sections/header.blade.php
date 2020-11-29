@@ -3,11 +3,11 @@
 
         <div class="md-xl:flex items-center">
 
-            <div class="header__logo">
+            <a class="header__logo" href="{{ route('home') }}">
                 <picture>
                     <img class="xs-sm:h-36 md-xl:h-40" src="{{ asset('img/logo/header.png') }}" alt="Nicehostel суть уютных хостелов логотип">
                 </picture>
-            </div>
+            </a>
 
             <nav class="header__nav sx-32 xs-sm:hidden md-lg:ml-40px xl:ml-80px text-20">
                 <a class="no-underline text-white" href="#">Наши хостелы</a>
