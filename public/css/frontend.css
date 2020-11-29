@@ -100,6 +100,9 @@ img {
   text-transform: uppercase;
   padding: .66em 1em; }
 
+.text-white {
+  color: #fff; }
+
 .button_color-green-0 {
   background-color: #1BC69B;
   color: #fff; }
