@@ -1,0 +1,24 @@
+@import "../bootstrap";
+
+.wave {
+    width: 100%;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="1024" height="40" viewBox="0 0 1024 40" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0 16L56.8889 14C113.778 12 227.556 8 341.333 8.6625C455.111 9.375 568.889 14.625 682.667 15.3375C796.444 16 910.222 12 967.111 10L1024 8V40H967.111C910.222 40 796.444 40 682.667 40C568.889 40 455.111 40 341.333 40C227.556 40 113.778 40 56.8889 40H0V16Z" fill="#F4F4F4"/> </svg>');
+    background-size: cover;
+    background-color: $grey-0;
+
+    @media ($breakpoint_sm_max) {
+        height: 40px;
+    }
+
+    @media ($breakpoint_md) {
+        height: 60px;
+    }
+
+    @media ($breakpoint_lg) {
+        height: 40px;
+    }
+
+    @media ($breakpoint_xl) {
+        height: 80px;
+    }
+}
