@@ -68309,6 +68309,609 @@ table {
   .md-lg\:text-30 {
     font-size: 1.875rem; } }
 
+.text-32 {
+  font-size: 2rem; }
+
+@media (max-width: 374px) {
+  .xs\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 1200px) {
+  .xl\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 1366px) {
+  .xl2\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 1440px) {
+  .xl3\:text-32 {
+    font-size: 2rem; } }
+
+@media (max-width: 767px) {
+  .xs-sm\:text-32 {
+    font-size: 2rem; } }
+
+@media (max-width: 1019px) {
+  .xs-md\:text-32 {
+    font-size: 2rem; } }
+
+@media (max-width: 1199px) {
+  .xs-lg\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 375px) {
+  .sm-xl\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 768px) {
+  .md-xl\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 1020px) {
+  .lg-xl\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .sm\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .md\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .lg\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 375px) and (max-width: 1019px) {
+  .sm-md\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 375px) and (max-width: 1199px) {
+  .sm-lg\:text-32 {
+    font-size: 2rem; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .md-lg\:text-32 {
+    font-size: 2rem; } }
+
+.text-34 {
+  font-size: 2.125rem; }
+
+@media (max-width: 374px) {
+  .xs\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 1200px) {
+  .xl\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 1366px) {
+  .xl2\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 1440px) {
+  .xl3\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (max-width: 767px) {
+  .xs-sm\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (max-width: 1019px) {
+  .xs-md\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (max-width: 1199px) {
+  .xs-lg\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 375px) {
+  .sm-xl\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 768px) {
+  .md-xl\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 1020px) {
+  .lg-xl\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .sm\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .md\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .lg\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 375px) and (max-width: 1019px) {
+  .sm-md\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 375px) and (max-width: 1199px) {
+  .sm-lg\:text-34 {
+    font-size: 2.125rem; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .md-lg\:text-34 {
+    font-size: 2.125rem; } }
+
+.text-36 {
+  font-size: 2.25rem; }
+
+@media (max-width: 374px) {
+  .xs\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 1200px) {
+  .xl\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 1366px) {
+  .xl2\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 1440px) {
+  .xl3\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (max-width: 767px) {
+  .xs-sm\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (max-width: 1019px) {
+  .xs-md\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (max-width: 1199px) {
+  .xs-lg\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 375px) {
+  .sm-xl\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 768px) {
+  .md-xl\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 1020px) {
+  .lg-xl\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .sm\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .md\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .lg\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 375px) and (max-width: 1019px) {
+  .sm-md\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 375px) and (max-width: 1199px) {
+  .sm-lg\:text-36 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .md-lg\:text-36 {
+    font-size: 2.25rem; } }
+
+.text-38 {
+  font-size: 2.375rem; }
+
+@media (max-width: 374px) {
+  .xs\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 1200px) {
+  .xl\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 1366px) {
+  .xl2\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 1440px) {
+  .xl3\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (max-width: 767px) {
+  .xs-sm\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (max-width: 1019px) {
+  .xs-md\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (max-width: 1199px) {
+  .xs-lg\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 375px) {
+  .sm-xl\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 768px) {
+  .md-xl\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 1020px) {
+  .lg-xl\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .sm\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .md\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .lg\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 375px) and (max-width: 1019px) {
+  .sm-md\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 375px) and (max-width: 1199px) {
+  .sm-lg\:text-38 {
+    font-size: 2.375rem; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .md-lg\:text-38 {
+    font-size: 2.375rem; } }
+
+.text-40 {
+  font-size: 2.5rem; }
+
+@media (max-width: 374px) {
+  .xs\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 1200px) {
+  .xl\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 1366px) {
+  .xl2\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 1440px) {
+  .xl3\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (max-width: 767px) {
+  .xs-sm\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (max-width: 1019px) {
+  .xs-md\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (max-width: 1199px) {
+  .xs-lg\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 375px) {
+  .sm-xl\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 768px) {
+  .md-xl\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 1020px) {
+  .lg-xl\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .sm\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .md\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .lg\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 375px) and (max-width: 1019px) {
+  .sm-md\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 375px) and (max-width: 1199px) {
+  .sm-lg\:text-40 {
+    font-size: 2.5rem; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .md-lg\:text-40 {
+    font-size: 2.5rem; } }
+
+.text-42 {
+  font-size: 2.625rem; }
+
+@media (max-width: 374px) {
+  .xs\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 1200px) {
+  .xl\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 1366px) {
+  .xl2\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 1440px) {
+  .xl3\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (max-width: 767px) {
+  .xs-sm\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (max-width: 1019px) {
+  .xs-md\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (max-width: 1199px) {
+  .xs-lg\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 375px) {
+  .sm-xl\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 768px) {
+  .md-xl\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 1020px) {
+  .lg-xl\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .sm\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .md\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .lg\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 375px) and (max-width: 1019px) {
+  .sm-md\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 375px) and (max-width: 1199px) {
+  .sm-lg\:text-42 {
+    font-size: 2.625rem; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .md-lg\:text-42 {
+    font-size: 2.625rem; } }
+
+.text-44 {
+  font-size: 2.75rem; }
+
+@media (max-width: 374px) {
+  .xs\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 1200px) {
+  .xl\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 1366px) {
+  .xl2\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 1440px) {
+  .xl3\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (max-width: 767px) {
+  .xs-sm\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (max-width: 1019px) {
+  .xs-md\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (max-width: 1199px) {
+  .xs-lg\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 375px) {
+  .sm-xl\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 768px) {
+  .md-xl\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 1020px) {
+  .lg-xl\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .sm\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .md\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .lg\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 375px) and (max-width: 1019px) {
+  .sm-md\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 375px) and (max-width: 1199px) {
+  .sm-lg\:text-44 {
+    font-size: 2.75rem; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .md-lg\:text-44 {
+    font-size: 2.75rem; } }
+
+.text-46 {
+  font-size: 2.875rem; }
+
+@media (max-width: 374px) {
+  .xs\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 1200px) {
+  .xl\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 1366px) {
+  .xl2\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 1440px) {
+  .xl3\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (max-width: 767px) {
+  .xs-sm\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (max-width: 1019px) {
+  .xs-md\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (max-width: 1199px) {
+  .xs-lg\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 375px) {
+  .sm-xl\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 768px) {
+  .md-xl\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 1020px) {
+  .lg-xl\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .sm\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .md\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .lg\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 375px) and (max-width: 1019px) {
+  .sm-md\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 375px) and (max-width: 1199px) {
+  .sm-lg\:text-46 {
+    font-size: 2.875rem; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .md-lg\:text-46 {
+    font-size: 2.875rem; } }
+
+.text-48 {
+  font-size: 3rem; }
+
+@media (max-width: 374px) {
+  .xs\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 1200px) {
+  .xl\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 1366px) {
+  .xl2\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 1440px) {
+  .xl3\:text-48 {
+    font-size: 3rem; } }
+
+@media (max-width: 767px) {
+  .xs-sm\:text-48 {
+    font-size: 3rem; } }
+
+@media (max-width: 1019px) {
+  .xs-md\:text-48 {
+    font-size: 3rem; } }
+
+@media (max-width: 1199px) {
+  .xs-lg\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 375px) {
+  .sm-xl\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 768px) {
+  .md-xl\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 1020px) {
+  .lg-xl\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .sm\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .md\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .lg\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 375px) and (max-width: 1019px) {
+  .sm-md\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 375px) and (max-width: 1199px) {
+  .sm-lg\:text-48 {
+    font-size: 3rem; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .md-lg\:text-48 {
+    font-size: 3rem; } }
+
 .font-100 {
   font-weight: 100; }
 
