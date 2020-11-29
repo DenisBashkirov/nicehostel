@@ -1,7 +1,7 @@
 <header class="header absolute t-0 w-screen z-5 text-white">
     <div class="container flex xs-sm:justify-between xs-sm:h-48 md-xl:h-64 flex items-center">
 
-        <div>
+        <div class="md-xl:flex items-center">
 
             <div class="header__logo">
                 <picture>
@@ -9,7 +9,7 @@
                 </picture>
             </div>
 
-            <nav class="header__nav xs-sm:hidden">
+            <nav class="header__nav xs-sm:hidden md-lg:ml-42px xl:ml-80px">
                 <a class="no-underline text-white" href="#">Наши хостелы</a>
                 <a class="no-underline text-white" href="#">Франшиза</a>
                 <a class="no-underline text-white" href="#">Контакты</a>
