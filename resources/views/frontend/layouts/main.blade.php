@@ -14,5 +14,7 @@
 @include('frontend.sections.header')
 @yield('main_content')
 
+@yield('page_scripts')
+
 </body>
 </html>
