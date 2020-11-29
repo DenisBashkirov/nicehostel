@@ -5,7 +5,7 @@
 
             <div class="header__logo">
                 <picture>
-                    <img class="xs-sm:h-40" src="{{ asset('img/logo/header.png') }}" alt="Nicehostel суть уютных хостелов логотип">
+                    <img class="xs-sm:h-36 md-xl:h-40" src="{{ asset('img/logo/header.png') }}" alt="Nicehostel суть уютных хостелов логотип">
                 </picture>
             </div>
 
@@ -17,11 +17,11 @@
 
         </div>
 
-        <div class="header__phone">
+        <div class="header__phone xs-sm:hidden">
             <a class="no-underline text-white" href="tel:8 (800) 505-16-57">8 (800) 505-16-57</a>
         </div>
 
-        <button class="hamburger" type="button">
+        <button class="hamburger md-xl:hidden" type="button">
             <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
             </span>
