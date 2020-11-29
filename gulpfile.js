@@ -12,5 +12,8 @@ gulp.task('sass', () => {
 });
 
 gulp.task('watch-styles', () => {
-    gulp.watch('')
+    gulp.watch(
+        './resources/sass/frontend/project/**/*.scss',
+        gulp.series('sass')
+    )
 });
