@@ -1,0 +1,7 @@
+@import "../bootstrap";
+
+@each $color, $hex in $colors-map {
+    .bg-#{$color} {
+        background-color: #{$hex};
+    }
+}
