@@ -1,4 +1,4 @@
-<header class="header absolute t-0 w-screen z-5 text-white">
+<header class="header absolute t-0 w-full z-5 text-white">
     <div class="container flex justify-between xs-sm:h-48 md-xl:h-64 flex items-center">
 
         <div class="md-xl:flex items-center">
