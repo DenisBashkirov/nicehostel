@@ -4,16 +4,13 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 
 
-gulp.task('sass-framework', () => {
-    return gulp.src('./src/sass/framework/**/*.scss')
+gulp.task('sass', () => {
+    return gulp.src('./resources/sass/frontend/project/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(concat('framework.css'))
-        .pipe(gulp.dest('./css'));
+        .pipe(concat('frontend.css'))
+        .pipe(gulp.dest('./public/css/'));
 });
 
-gulp.task('sass-project', () => {
-    return gulp.src('./src/sass/project/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
-        .pipe(concat('project.css'))
-        .pipe(gulp.dest('./css'));
+gulp.task('watch-styles', () => {
+    gulp.watch('')
 });
