@@ -1,0 +1,61 @@
+$container_xl: 1200px;
+$container_lg: 1020px;
+$container_md: 768px;
+
+$xl3: 1440px;
+$xl2: 1366px;
+$xl: 1200px;
+$lg: 1020px;
+$md: 768px;
+$sm: 375px;
+
+$breakpoint_3xl: "min-width: #{$xl3}";
+$breakpoint_2xl: "min-width: #{$xl2}";
+$breakpoint_xl: "min-width: #{$xl}";
+$breakpoint_lg: "min-width: #{$lg}";
+$breakpoint_md: "min-width: #{$md}";
+$breakpoint_sm: "min-width: #{$sm}";
+
+$breakpoint_2xl-max: "max-width: #{$xl3 - 1px}";
+$breakpoint_xl-max: "max-width: #{$xl2 - 1px}";
+$breakpoint_lg-max: "max-width: #{$xl - 1px}";
+$breakpoint_md-max: "max-width: #{$lg - 1px}";
+$breakpoint_sm-max: "max-width: #{$md - 1px}";
+$breakpoint_xs-max: "max-width: #{$sm - 1px}";
+
+
+$breakpoints-list:
+  (xs, $breakpoint_xs-max),
+  (xl, $breakpoint_xl),
+  (xl2, $breakpoint_2xl),
+  (xl3, $breakpoint_3xl),
+  
+  (xs-sm, $breakpoint_sm-max),
+  (xs-md, $breakpoint_md-max),
+  (xs-lg, $breakpoint_lg-max),
+  
+  (sm-xl, $breakpoint_sm),
+  (md-xl, $breakpoint_md),
+  (lg-xl, $breakpoint_lg);
+
+
+$breakpoints-map_min-max:
+  (sm, $breakpoint_sm, $breakpoint_sm-max),
+  (md, $breakpoint_md, $breakpoint_md-max),
+  (lg, $breakpoint_lg, $breakpoint_lg-max),
+  
+  (sm-md, $breakpoint_sm, $breakpoint_md-max),
+  (sm-lg, $breakpoint_sm, $breakpoint_lg-max),
+  
+  (md-lg, $breakpoint_md, $breakpoint_lg-max);
+
+
+$breakpoints_map:
+  (xs-max, $breakpoint_xs-max),
+  (sm, $breakpoint_sm),
+  (sm-max, $breakpoint_sm-max),
+  (md, $breakpoint_md),
+  (md-max, $breakpoint_md-max),
+  (lg, $breakpoint_lg),
+  (lg-max, $breakpoint_lg-max),
+  (xl, $breakpoint_xl)

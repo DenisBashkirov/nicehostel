@@ -1,0 +1,189 @@
+html {
+  font-family: Roboto, sans-serif; }
+
+picture {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+img {
+  max-width: 100%; }
+
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Thin.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Thin.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Light.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Light.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Bold.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Bold.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Black.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Black.woff2") format("woff2"); }
+
+.button {
+  display: inline-flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: .66em 1em; }
+
+.button_color-green-0 {
+  background-color: #1BC69B;
+  color: #fff; }
+
+.button_color-green-10 {
+  background-color: #19B18B;
+  color: #fff; }
+
+.button_color-green-20 {
+  background-color: #179F7D;
+  color: #fff; }
+
+.button_color-green-30 {
+  background-color: #168E70;
+  color: #fff; }
+
+.button_color-green-40 {
+  background-color: #148065;
+  color: #fff; }
+
+.button_color-green-50 {
+  background-color: #12725A;
+  color: #fff; }
+
+.button_color-green-60 {
+  background-color: #116751;
+  color: #fff; }
+
+.button_color-green-70 {
+  background-color: #105C49;
+  color: #fff; }
+
+.button_color-green-80 {
+  background-color: #0E5241;
+  color: #fff; }
+
+.button_color-green-90 {
+  background-color: #0D4A3B;
+  color: #fff; }
+
+.button_color-grey-0 {
+  background-color: #F4F4F4;
+  color: #fff; }
+
+.button_color-grey-10 {
+  background-color: #19B18B;
+  color: #fff; }
+
+.button_color-grey-20 {
+  background-color: #CFCFCF;
+  color: #fff; }
+
+.button_color-grey-30 {
+  background-color: #BABABA;
+  color: #fff; }
+
+.button_color-grey-40 {
+  background-color: #A7A7A7;
+  color: #fff; }
+
+.button_color-grey-50 {
+  background-color: #979797;
+  color: #fff; }
+
+.button_color-grey-60 {
+  background-color: #888888;
+  color: #fff; }
+
+.button_color-grey-70 {
+  background-color: #7A7A7A;
+  color: #fff; }
+
+.button_color-grey-80 {
+  background-color: #6E6E6E;
+  color: #fff; }
+
+.button_color-grey-90 {
+  background-color: #636363;
+  color: #fff; }
+
+.button_color-white-90 {
+  background-color: #FFFFFF;
+  color: #fff; }
+
+@media (min-width: 768px) {
+  .hostels-list-grid__item {
+    box-shadow: 0 0 6px rgba(18, 114, 90, 0.25); } }
