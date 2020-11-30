@@ -9,9 +9,9 @@
                 <a class="flex items-center xs-sm:text-20 md-xl:text-24 xs-sm:sx-4 md-xl:sx-8 no-underline text-black" href="tel:+7 (800) 505-16-57"><i class="icon-mobile xs-sm:text-28 md-xl:text-32"></i><span>+7 (800) 505-16-57</span></a>
             </div>
 
-            <div class="xs-sm:mt-40">
+            <div class="xs-sm:mt-20">
                 <p class="flex items-center xs-sm:text-20 md-xl:text-24 xs-sm:sx-4 md-xl:sx-8"><i class="icon-pin xs-sm:text-28 md-xl:text-32"></i><span>г. Москва, ул. Арбат, дом 12, стр.1, офис 308</span></p>
-                <a class="flex items-center xs-sm:text-20 md-xl:text-24 xs-sm:sx-4 md-xl:sx-8 no-underline text-black" href="mailto:info@nicehostel.org"><i class="icon-mail xs-sm:text-28 md-xl:text-32"></i><span>info@nicehostel.org</span></a>
+                <a class="flex items-center xs-sm:mt-20 xs-sm:text-20 md-xl:text-24 xs-sm:sx-4 md-xl:sx-8 no-underline text-black" href="mailto:info@nicehostel.org"><i class="icon-mail xs-sm:text-28 md-xl:text-32"></i><span>info@nicehostel.org</span></a>
             </div>
 
         </div>
