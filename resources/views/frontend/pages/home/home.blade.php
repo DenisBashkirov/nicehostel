@@ -29,10 +29,22 @@
                 // её центр и коэффициент масштабирования.
                 center: [55.76, 37.64], // Москва
                 zoom: 10,
-                controls: [],
+                controls: ['zoomControl'],
             }, {
                 searchControlProvider: 'yandex#search'
             });
+
+            myMap.behaviors
+                // Отключаем часть включенных по умолчанию поведений:
+                //  - drag - перемещение карты при нажатой левой кнопки мыши;
+                //  - magnifier.rightButton - увеличение области, выделенной правой кнопкой мыши.
+                .disable(['scrollZoom' ,'rightMouseButtonMagnifier']);
+
+            //на мобильных устройствах... (проверяем по userAgent браузера)
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+                //... отключаем перетаскивание карты
+                myMap.behaviors.disable('drag');
+            }
 
         }
     </script>
