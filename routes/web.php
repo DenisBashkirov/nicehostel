@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', ['uses' => 'Frontend\FrontendOutputController@home', 'as' => 'home']);
+
+Route::get('/moscow/zemlyanoy-val-38', ['uses' => 'Frontend/FrontendOutputController@zemlyanoy_val', 'as' => 'zemlyanoy_val']);
