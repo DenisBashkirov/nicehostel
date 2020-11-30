@@ -1,12 +1,12 @@
-<footer class="footer bg-grey-0 xs-sm:py-40 md-xl:py-60">
+<footer class="footer bg-grey-0 xs-sm:pt-60 xs-sm:pb-40 md-xl:py-60">
     <div class="container">
 
         <h2 class="xs-sm:text-30 md-xl:text-48 font-700">Контакты</h2>
 
-        <div>
+        <div class="xs-sm:mt-40">
 
             <div class="footer__phone">
-                <a class="flex items-center xs-sm:text-20 md-xl:text-24 xs-sm:sx-4 md-xl:sx-8 no-underline text-black" href="tel:+7 (800) 505-16-57"><i class="icon-mobile xs-sm:text-28 md-xl:text-32"></i><span>+7 (800) 505-16-57</span></a>
+                <a class="flex items-center xs-sm:text-20 md-xl:text-24 xs-sm:sx-4 md-xl:sx-8 no-underline text-black" href="tel:+7(800)505-16-57"><i class="icon-mobile xs-sm:text-28 md-xl:text-32"></i><span>+7(800)505-16-57</span></a>
             </div>
 
             <div class="xs-sm:mt-20">
