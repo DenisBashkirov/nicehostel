@@ -31,4 +31,8 @@ class FrontendOutputController extends FrontendBaseController
 
         return $this->renderOutput();
     }
+
+    public function zemlyanoy_val() {
+
+    }
 }
