@@ -1,6 +1,6 @@
 <div class="wave md-lg:mt-40px"></div>
 
-<div class="bg-grey-0 pt-20">
+<div class="bg-grey-0 pt-20 z-2">
 
     <div class="container">
 
