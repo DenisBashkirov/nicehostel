@@ -28,7 +28,7 @@
                 // При инициализации карты обязательно нужно указать
                 // её центр и коэффициент масштабирования.
                 center: [55.76, 37.64], // Москва
-                zoom: 10,
+                zoom: 1,
                 controls: ['zoomControl'],
             }, {
                 searchControlProvider: 'yandex#search'
@@ -45,6 +45,83 @@
                 //... отключаем перетаскивание карты
                 myMap.behaviors.disable('drag');
             }
+
+            let cities = {
+                MoscowZemlyanoyVal: {
+                    coords: [55.755251, 37.655320],
+                },
+                MoscowSadovayaChernogryazskaya: {
+                    coords: [55.766516, 37.653424],
+                },
+                IvanovoProspektLenina: {
+                    coords: [56.997627, 40.976391],
+                },
+                TumenMiussckaya: {
+                    coords: [57.145983, 65.535837],
+                },
+                PenzaSvrdlova: {
+                    coords: [53.176669, 45.006099],
+                },
+                KrasnogorskIlinskiyBulvar: {
+                    coords: [55.817249, 37.370796],
+                },
+                RyazanPervomayskiyProspekt: {
+                    coords: [54.629450, 39.715974],
+                },
+                SochiVinogradniy: {
+                    coords: [43.630642, 39.716944],
+                }
+            }
+
+            myMap.geoObjects
+                .add(new ymaps.Placemark(cities.MoscowSadovayaChernogryazskaya.coords, {
+                    balloonContent: ''
+                }, {
+                    preset: 'islands#redIcon',
+                    iconColor: '#3caa3c'
+                }))
+                .add(new ymaps.Placemark(cities.MoscowSadovayaChernogryazskaya.coords, {
+                    balloonContent: ''
+                }, {
+                    preset: 'islands#redIcon',
+                    iconColor: '#3caa3c'
+                }))
+                .add(new ymaps.Placemark(cities.IvanovoProspektLenina.coords, {
+                    balloonContent: ''
+                }, {
+                    preset: 'islands#redIcon',
+                    iconColor: '#3caa3c'
+                }))
+                .add(new ymaps.Placemark(cities.TumenMiussckaya.coords, {
+                    balloonContent: ''
+                }, {
+                    preset: 'islands#redIcon',
+                    iconColor: '#3caa3c'
+                }))
+                .add(new ymaps.Placemark(cities.PenzaSvrdlova.coords, {
+                    balloonContent: ''
+                }, {
+                    preset: 'islands#redIcon',
+                    iconColor: '#3caa3c'
+                }))
+                .add(new ymaps.Placemark(cities.KrasnogorskIlinskiyBulvar.coords, {
+                    balloonContent: ''
+                }, {
+                    preset: 'islands#redIcon',
+                    iconColor: '#3caa3c'
+                }))
+                .add(new ymaps.Placemark(cities.RyazanPervomayskiyProspekt.coords, {
+                    balloonContent: ''
+                }, {
+                    preset: 'islands#redIcon',
+                    iconColor: '#3caa3c'
+                }))
+                .add(new ymaps.Placemark(cities.SochiVinogradniy.coords, {
+                    balloonContent: ''
+                }, {
+                    preset: 'islands#redIcon',
+                    iconColor: '#3caa3c'
+                }))
 
         }
     </script>
