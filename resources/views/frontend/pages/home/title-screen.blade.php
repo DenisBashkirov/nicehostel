@@ -5,7 +5,7 @@
         <p class="xs-sm:text-30 md-xl:text-48">Сеть уютных хостелов</p>
 
         <div class="mt-40">
-            <x-frontend.components.button.green color="green-0" font-size="xs-sm:text-18 md-xl:text-20" text="Наши хостелы"/>
+            <x-frontend.components.button.green color="green-0" font-size="xs-sm:text-18 md-xl:text-20" text="Наши хостелы" link="#"/>
         </div>
 
     </div>

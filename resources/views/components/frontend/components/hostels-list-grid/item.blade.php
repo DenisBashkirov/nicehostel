@@ -9,7 +9,7 @@
     <p class="hostels-list-grid__item-address mt-8 text-24">ул. Земляной вал, 38-40с5 </p>
 
     <div class="mt-20">
-        <x-frontend.components.button.green color="green-0" font-size="text-18" text="Подробнее"/>
+        <x-frontend.components.button.green color="green-0" font-size="text-18" text="Подробнее" link="{{ route('zemlyanoy_val') }}"/>
     </div>
 
 </div>
