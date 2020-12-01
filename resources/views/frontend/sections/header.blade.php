@@ -9,16 +9,18 @@
                 </picture>
             </a>
 
+            {{--
             <nav class="header__nav sx-32 xs-sm:hidden md-lg:ml-40px xl:ml-80px text-20">
                 <a class="no-underline text-white" href="#">Наши хостелы</a>
                 <a class="no-underline text-white" href="#">Франшиза</a>
                 <a class="no-underline text-white" href="#">Контакты</a>
             </nav>
+            --}}
 
         </div>
 
         <div class="header__phone xs-sm:hidden">
-            <a class="no-underline text-white text-24 font-700" href="tel:8 (800) 505-16-57">8 (800) 505-16-57</a>
+            <a class="no-underline text-white text-24 font-700" href="tel:{{ $phone }}">{{ $phone }}</a>
         </div>
 
         <button class="hamburger md-xl:hidden" type="button">
