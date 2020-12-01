@@ -79,7 +79,11 @@
             myMap.geoObjects
                 .add(new ymaps.Placemark({{ $hostel->coords }}, {
                     balloonContent: ''
-                }));
+                }, {
+                    preset: 'islands#redIcon',
+                    iconColor: '#3caa3c'
+                }
+                ));
 
         }
     </script>
