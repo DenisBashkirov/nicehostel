@@ -15,6 +15,7 @@
 @endsection
 
 @section('page_scripts')
+    {{ $coords = '[55.755251, 37.655320]' }}
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=5a760665-b8db-4c65-ae81-bb48afbdaf64" type="text/javascript"></script>
 
     <script>
@@ -29,8 +30,8 @@
             myMap = new ymaps.Map('map', {
                 // При инициализации карты обязательно нужно указать
                 // её центр и коэффициент масштабирования.
-                center: [53.195873, 50.100193],
-                zoom: 4,
+                center: {{ $hostel->coords }},
+                zoom: 17,
                 controls: ['zoomControl'],
             }, {
                 searchControlProvider: 'yandex#search'
@@ -76,7 +77,7 @@
             }
 
             myMap.geoObjects
-                .add(new ymaps.Placemark(cities.MoscowSadovayaChernogryazskaya.coords, {
+                .add(new ymaps.Placemark({{ $hostel->coords }}, {
                     balloonContent: ''
                 }));
 
