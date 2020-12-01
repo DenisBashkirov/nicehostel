@@ -18,6 +18,7 @@ class HostelsSeeder extends Seeder
                 'route' => 'zemlyanoy-val',
                 'phone' => '+7(985)986-60-13',
                 'email' => 'kurskaya@nicehostel.ru',
+                'coords' => '[55.755251, 37.655320]',
                 'about' => '
                     <p class="lh-120">Хостел «Найс Курская» находится в Москве, в пяти минутах пешком от станции метро Курская кольцевая и всего одной станции метро от Кремля, Красной площади площади трех вокзалов (станция метро Комсомольская). Большой театр и Третьяковская галерея – в пешей доступности от хостела.</p>
                     <p class="lh-120">Номера хостела комфортны как для кратковременного, так и длительного проживания, оформлены в привлекательных ярких тонах.</p>
@@ -34,6 +35,7 @@ class HostelsSeeder extends Seeder
                 'route' => 'sadovaya-chernogryazsckaya',
                 'phone' => '+7(985)050-00-85',
                 'email' => 'red@nicehostel.ru',
+                'coords' => '[55.766516, 37.653424]',
                 'about' => ''
             ],
             [
@@ -42,6 +44,7 @@ class HostelsSeeder extends Seeder
                 'route' => 'ivanovo',
                 'phone' => '+7(920)356-83-37',
                 'email' => 'ivanovo@nicehostel.ru',
+                'coords' => '[56.997627, 40.976391]',
                 'about' => ''
             ],
             [
@@ -50,6 +53,7 @@ class HostelsSeeder extends Seeder
                 'route' => 'tumen',
                 'phone' => '+7(952)671-60-60',
                 'email' => 'tmn-m@nicehostel.ru',
+                'coords' => '[57.145983, 65.535837]',
                 'about' => ''
             ],
             [
@@ -58,6 +62,7 @@ class HostelsSeeder extends Seeder
                 'route' => 'penza',
                 'phone' => '+7(8412)23-51-15',
                 'email' => 'penza@nicehostel.ru',
+                'coords' => '[53.176669, 45.006099]',
                 'about' => ''
             ],
             [
@@ -66,6 +71,7 @@ class HostelsSeeder extends Seeder
                 'route' => 'krasnogorsk',
                 'phone' => '+7(968)7777-550',
                 'email' => 'crocus@nicehostel.ru',
+                'coords' => '[55.817249, 37.370796]',
                 'about' => ''
             ],
             [
@@ -74,6 +80,7 @@ class HostelsSeeder extends Seeder
                 'route' => 'ryazan',
                 'phone' => '+7(4912)983-983',
                 'email' => 'ryazan@nicehostel.ru',
+                'coords' => '[54.629450, 39.715974]',
                 'about' => ''
             ],
             [
@@ -82,6 +89,7 @@ class HostelsSeeder extends Seeder
                 'route' => 'sochi',
                 'phone' => '+7(862)233-78-88',
                 'email' => 'sochi@nicehostel.ru',
+                'coords' => '[43.630642, 39.716944]',
                 'about' => ''
             ],
         ];
