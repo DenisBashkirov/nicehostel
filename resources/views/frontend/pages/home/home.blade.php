@@ -27,8 +27,8 @@
             myMap = new ymaps.Map('map', {
                 // При инициализации карты обязательно нужно указать
                 // её центр и коэффициент масштабирования.
-                center: [55.76, 37.64], // Москва
-                zoom: 1,
+                center: [53.195873, 50.100193],
+                zoom: 4,
                 controls: ['zoomControl'],
             }, {
                 searchControlProvider: 'yandex#search'
