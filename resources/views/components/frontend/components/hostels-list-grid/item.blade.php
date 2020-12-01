@@ -1,7 +1,7 @@
-<div class="hostels-list-grid__item flex-col mx-auto xs-sm:max-w-328 md-xl:p-20 b-radius-5">
+<div class="hostels-list-grid__item flex-col w-full mx-auto xs-sm:max-w-328 md-xl:p-20 b-radius-5">
 
     <picture class="hostels-list-grid__item-img w-full">
-        <img class="b-radius-3" src="{{ asset('img/samples/hostel.jpg') }}" alt="">
+        <img class="b-radius-3" src="{{ asset('img/hostels/' . $hostel->route . '/background.jpg') }}" alt="">
     </picture>
 
     <p class="hostels-list-grid__item-city mt-20 text-24 font-700 lh-120">{{ $hostel->city }}</p>
