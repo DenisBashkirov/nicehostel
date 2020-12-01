@@ -3,6 +3,10 @@ const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
+const criticalCss = require('gulp-penthouse');
+const postcss = require('gulp-postcss');
+const uncss = require('postcss-uncss');
+const webp = require('gulp-webp');
 
 
 gulp.task('sass', () => {
@@ -21,10 +25,34 @@ gulp.task('watch-styles', () => {
 
 gulp.task('build-css', () => {
     return gulp.src('./public/css/*.css')
-        .pipe(concat('main.css'))
+        .pipe(concat('main.min.css'))
         .pipe(cleanCSS({level: 2}))
         .pipe(autoprefixer({
             cascade: true
         }))
         .pipe(gulp.dest('./public/css'));
 });
+
+gulp.task('uncss', () => {
+
+    let plugins = [
+        uncss({
+            html: [
+                './resources/views/**/*.blade.php'
+            ],
+            ignore: [
+                /.is-active/,
+            ]
+        })
+    ];
+
+    return gulp.src('./public/css/main.css')
+        .pipe(postcss(plugins))
+        .pipe(gulp.dest('./public/css'));
+});
+
+gulp.task('webp', () =>
+    gulp.src('/resources/img/**/*')
+        .pipe(webp())
+        .pipe(gulp.dest('./public/img/'))
+);
