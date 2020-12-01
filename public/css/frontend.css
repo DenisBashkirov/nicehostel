@@ -869,6 +869,10 @@ img {
     bottom: 0;
     transform: rotate(-90deg); }
 
+@media (min-width: 768px) {
+  .room-card {
+    box-shadow: 0 0 6px rgba(18, 114, 90, 0.25); } }
+
 .text-white {
   color: #fff; }
 
@@ -985,3 +989,21 @@ img {
 @media (min-width: 768px) {
   .hostels-list-grid__item {
     box-shadow: 0 0 6px rgba(18, 114, 90, 0.25); } }
+
+.wave_reverse {
+  width: 100%;
+  background-image: url("/public/img/waves/wave.png");
+  background-size: cover;
+  transform: rotate(180deg); }
+  @media (max-width: 767px) {
+    .wave_reverse {
+      height: 40px; } }
+  @media (min-width: 768px) {
+    .wave_reverse {
+      height: 60px; } }
+  @media (min-width: 1020px) {
+    .wave_reverse {
+      height: 40px; } }
+  @media (min-width: 1200px) {
+    .wave_reverse {
+      height: 80px; } }

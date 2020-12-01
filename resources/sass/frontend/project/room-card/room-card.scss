@@ -1,0 +1,9 @@
+@import "../bootstrap";
+
+.room-card {
+
+    @media ($breakpoint_md) {
+        box-shadow: 0 0 6px rgba(18, 114, 90, 0.25);
+    }
+
+}
