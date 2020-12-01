@@ -7,7 +7,7 @@
     <div class="wave md-lg:mt-40px"></div>
     @include('frontend.pages.hostel.rooms')
     @if($hostel->about)
-        <div class="wave_reverse md-lg:mt-40px"></div>
+        <div class="wave_reverse"></div>
         @include('frontend.pages.hostel.about')
         <div class="wave"></div>
     @endif
