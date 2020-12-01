@@ -1,4 +1,4 @@
-<div class="container xs-sm:py-40 xl:py-100px">
+<div class="container xs-lg:py-40 xl:py-100px">
 
     <h2 class="xs-sm:text-30 md-xl:text-48 font-700">О хостеле</h2>
 
