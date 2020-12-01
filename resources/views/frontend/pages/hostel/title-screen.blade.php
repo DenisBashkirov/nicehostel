@@ -1,6 +1,6 @@
 <div class="title-screen flex items-center xs-sm:h-468px md-xl:h-600px text-white">
     <picture class="overlay">
-        <img class="overlay h-full object-cover" src="{{ asset('img/hostels/' . $hostel->route . '/background.jpg') }}" alt="Nicehostel {{ $hostel->city }}">
+        <img class="overlay w-full h-full object-cover" src="{{ asset('img/hostels/' . $hostel->route . '/background.jpg') }}" alt="Nicehostel {{ $hostel->city }}">
     </picture>
     <div class="title-screen__overlay overlay"></div>
     <div class="container md-lg:text-center">
