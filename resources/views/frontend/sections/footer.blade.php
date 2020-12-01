@@ -1,4 +1,4 @@
-<footer class="footer bg-grey-0 xs-sm:pt-60 xs-sm:pb-40 md:pt-60 md:pb-40 lg-xl:py-60">
+<footer class="footer bg-grey-0 xs-sm:pt-40 xs-sm:pb-40 md:pt-60 md:pb-40 lg-xl:py-60">
     <div class="container">
 
         <h2 class="xs-sm:text-30 md-xl:text-48 font-700">Контакты</h2>
