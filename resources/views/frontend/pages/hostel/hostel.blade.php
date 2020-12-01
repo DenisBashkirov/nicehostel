@@ -4,11 +4,13 @@
 
     @include('frontend.pages.hostel.title-screen')
     @include('frontend.pages.home.features')
+    <div class="wave md-lg:mt-40px"></div>
     @include('frontend.pages.hostel.rooms')
     @if($hostel->about)
+        <div class="wave_reverse md-lg:mt-40px"></div>
         @include('frontend.pages.hostel.about')
+        <div class="wave"></div>
     @endif
-    <div class="wave"></div>
     @include('frontend.sections.footer')
     <div id="map" class="w-full xs-sm:h-300px md-lg:h-300px xl:h-440px"></div>
 

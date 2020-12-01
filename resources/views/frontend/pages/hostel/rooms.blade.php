@@ -1,5 +1,3 @@
-<div class="wave md-lg:mt-40px"></div>
-
 <div class="bg-grey-0 pt-20 xl:pb-80 z-2">
 
     <div class="container">
@@ -17,5 +15,3 @@
     </div>
 
 </div>
-
-<div class="wave_reverse md-lg:mt-40px"></div>

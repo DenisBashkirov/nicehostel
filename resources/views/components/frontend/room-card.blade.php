@@ -1,4 +1,4 @@
-<div class="room-card flex-col mx-auto xs-sm:max-w-328 md-xl:p-20 b-radius-5">
+<div class="room-card xs-sm:w-240 flex-col mx-auto xs-sm:max-w-328 md-xl:p-20 b-radius-5">
 
     <picture class="w-full">
         <img class="b-radius-3" src="{{ asset('img/hostels/' . $room->hostel->route . '/rooms/' . $room->slug. '.jpg') }}" alt="">
