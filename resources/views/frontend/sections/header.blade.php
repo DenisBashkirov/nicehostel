@@ -9,13 +9,10 @@
                 </picture>
             </a>
 
-            {{--
             <nav class="header__nav sx-32 xs-sm:hidden md-lg:ml-40px xl:ml-80px text-20">
-                <a class="no-underline text-white" href="#">Наши хостелы</a>
-                <a class="no-underline text-white" href="#">Франшиза</a>
-                <a class="no-underline text-white" href="#">Контакты</a>
+                <a class="no-underline text-white" href="#hostels">Наши хостелы</a>
+                <a class="no-underline text-white" href="#contacts">Контакты</a>
             </nav>
-            --}}
 
         </div>
 
