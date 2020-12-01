@@ -1,6 +1,6 @@
 <div class="wave md-lg:mt-40px"></div>
 
-<div class="bg-grey-0 xs-sm:pb-20 md-xl:pb-40 pt-20 z-2">
+<div class="bg-grey-0 xs-sm:pb-20 md-xl:pb-40 pt-20 z-2" id="hostels">
 
     <div class="container">
 

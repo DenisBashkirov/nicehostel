@@ -1,4 +1,4 @@
-<div class="bg-grey-0 xs-sm:pb-20 md:pb-32 lg-xl:pb-40 pt-20 z-2">
+<div class="bg-grey-0 xs-sm:pb-20 md:pb-32 lg-xl:pb-40 pt-20 z-2" id="rooms">
 
     <div class="container">
 
