@@ -17,7 +17,6 @@
 @endsection
 
 @section('page_scripts')
-    {{ $coords = '[55.755251, 37.655320]' }}
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=5a760665-b8db-4c65-ae81-bb48afbdaf64" type="text/javascript"></script>
 
     <script>
