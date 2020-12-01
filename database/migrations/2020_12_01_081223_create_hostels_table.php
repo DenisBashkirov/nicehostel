@@ -22,6 +22,7 @@ class CreateHostelsTable extends Migration
                 $table->string('email')->nullable();
                 $table->string('route');
                 $table->text('about')->nullable();
+                $table->string('coords');
             });
         }
     }
