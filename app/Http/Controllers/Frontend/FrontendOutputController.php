@@ -47,6 +47,7 @@ class FrontendOutputController extends FrontendBaseController
         $this->varsAdd('address', $hostel->address);
         $this->varsAdd('email', $hostel->email);
         $this->varsAdd('hostel', $hostel);
+        $this->varsAdd('rooms', $hostel->rooms);
 
         $this->template .= 'hostel.hostel';
         return $this->renderOutput();
