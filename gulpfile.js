@@ -24,7 +24,7 @@ gulp.task('watch-styles', () => {
     )
 });
 
-gulp.task('build-css', () => {
+gulp.task('concat-css', () => {
     return gulp.src('./public/css/*.css')
         .pipe(concat('main.min.css'))
         .pipe(cleanCSS({level: 2}))
