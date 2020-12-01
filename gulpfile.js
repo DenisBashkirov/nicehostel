@@ -7,6 +7,7 @@ const criticalCss = require('gulp-penthouse');
 const postcss = require('gulp-postcss');
 const uncss = require('postcss-uncss');
 const webp = require('gulp-webp');
+const imagemin = require('gulp-imagemin');
 
 
 gulp.task('sass', () => {
@@ -51,8 +52,15 @@ gulp.task('uncss', () => {
         .pipe(gulp.dest('./public/css'));
 });
 
+gulp.task('img-min', done => {
+    gulp.src('./resources/img/**/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('./public/img/'))
+    done();
+});
+
 gulp.task('webp', () =>
-    gulp.src('/resources/img/**/*')
+    gulp.src('./resources/img/**/*')
         .pipe(webp())
         .pipe(gulp.dest('./public/img/'))
 );
