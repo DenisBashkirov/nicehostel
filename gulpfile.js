@@ -47,7 +47,7 @@ gulp.task('uncss', () => {
         })
     ];
 
-    return gulp.src('./public/css/main.css')
+    return gulp.src('./public/css/main.min.css')
         .pipe(postcss(plugins))
         .pipe(gulp.dest('./public/css'));
 });
