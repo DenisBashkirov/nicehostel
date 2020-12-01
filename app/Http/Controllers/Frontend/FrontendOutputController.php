@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use App\Config;
 use App\Events\LeadFormSubmitted;
 use App\Feedback;
+use App\Hostel;
 use App\NavMenuItem;
 use App\Page;
 use App\PortfolioItem;
@@ -32,17 +33,21 @@ class FrontendOutputController extends FrontendBaseController
         $this->varsAdd('address', 'г. Москва, ул. Арбат, дом 12, стр.1, офис 308');
         $this->varsAdd('email', 'info@nicehostel.ru');
 
+        $this->varsAdd('hostels', Hostel::all());
+
         $this->template .= 'home.home';
         return $this->renderOutput();
     }
 
-    public function zemlyanoy_val() {
+    public function hostel(String $route) {
 
-        $this->varsAdd('phone', '8(800)505-16-57');
-        $this->varsAdd('address', 'г. Москва, ул. Арбат, дом 12, стр.1, офис 308');
-        $this->varsAdd('email', 'info@nicehostel.ru');
+        $hostel = Hostel::where('route', $route)->first();
 
-        $this->template .= 'hostels.zemlyanoy_val';
+        $this->varsAdd('phone', $hostel->phone);
+        $this->varsAdd('address', $hostel->address);
+        $this->varsAdd('email', $hostel->email);
+
+        $this->template .= 'hostel.hostel';
         return $this->renderOutput();
     }
 }

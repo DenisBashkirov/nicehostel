@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Hostel;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', ['uses' => 'Frontend\FrontendOutputController@home', 'as' => 'home']);
 
-Route::get('/moscow/zemlyanoy-val-38', ['uses' => 'Frontend\FrontendOutputController@zemlyanoy_val', 'as' => 'zemlyanoy_val']);
-
-//Route::get($route, ['uses' => 'Frontend\FrontendOutputController@hostel', 'as' => 'hostel']);
+foreach (Hostel::all() as $hostel) {
+    Route::get('hostel/{route}', ['uses' => 'Frontend\FrontendOutputController@hostel', 'as' => $hostel->route]);
+}

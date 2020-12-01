@@ -13,8 +13,8 @@ class CreateHostelsTable extends Migration
      */
     public function up()
     {
-        if(!Schema::hasTable('hostels')) {
-            Schema::create('hostels', function (Blueprint $table) {
+        if(!Schema::hasTable('hostel')) {
+            Schema::create('hostel', function (Blueprint $table) {
                 $table->id();
                 $table->string('city');
                 $table->string('address');
@@ -32,6 +32,6 @@ class CreateHostelsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('hostels');
+        Schema::dropIfExists('hostel');
     }
 }
