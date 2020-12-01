@@ -46,6 +46,9 @@ class FrontendOutputController extends FrontendBaseController
 
         $hostel = Hostel::where('route', $route)->first();
 
+        $this->varsAdd('meta_title', 'Nicehostel | г. ' . $hostel->city . ', ' . $hostel->address);
+        $this->varsAdd('meta_description', 'Уютный хостелNicehostel | г. ' . $hostel->city . ', ' . $hostel->address);
+
         $this->varsAdd('phone', $hostel->phone);
         $this->varsAdd('address', $hostel->address);
         $this->varsAdd('email', $hostel->email);
