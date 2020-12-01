@@ -20,7 +20,7 @@
         </div>
 
         <div class="header__phone xs-sm:hidden">
-            <a class="no-underline text-white text-24 font-700" href="tel:{{ $phone }}">{{ $phone }}</a>
+            <a class="no-underline text-white text-24 font-700 hover_color-grey-20" href="tel:{{ $phone }}">{{ $phone }}</a>
         </div>
 
         <button class="hamburger md-xl:hidden" type="button">
