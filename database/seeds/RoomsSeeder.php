@@ -231,7 +231,7 @@ class RoomsSeeder extends Seeder
             [
                 'hostel_id' => 7,
                 'name' => 'Кровать в женском номере на 8 человек',
-                'slug' => '8-pers-dorm-room-m',
+                'slug' => '8-pers-dorm-room-w',
                 'price' => 500,
             ],
             [
