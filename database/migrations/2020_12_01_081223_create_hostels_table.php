@@ -21,6 +21,7 @@ class CreateHostelsTable extends Migration
                 $table->string('phone')->nullable();
                 $table->string('email')->nullable();
                 $table->string('route');
+                $table->text('about')->nullable();
             });
         }
     }
