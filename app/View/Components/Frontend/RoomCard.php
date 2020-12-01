@@ -6,14 +6,16 @@ use Illuminate\View\Component;
 
 class RoomCard extends Component
 {
+    public $room;
+
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($room)
     {
-        //
+        $this->room = $room;
     }
 
     /**

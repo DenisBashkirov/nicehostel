@@ -49,5 +49,7 @@ class RoomsSeeder extends Seeder
                 'price' => 3100,
             ],
         ];
+
+        DB::table('rooms')->insert($rooms);
     }
 }
