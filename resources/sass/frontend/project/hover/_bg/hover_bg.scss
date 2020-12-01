@@ -1,0 +1,9 @@
+@import "../../bootstrap";
+
+@each $color, $hex in $colors-map {
+    .hover_bg-#{$color} {
+        &:hover {
+            background-color: #{$hex};
+        }
+    }
+}
