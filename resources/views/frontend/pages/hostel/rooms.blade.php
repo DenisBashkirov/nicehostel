@@ -8,9 +8,9 @@
 
         <div class="hostels-list-grid grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x xs-lg:gap-y-40 xl:gap-y-60 xs-md:mt-40px lg-xl:mt-60px">
 
-            @for($i = 1; $i <= 8; $i++)
-                <x-frontend.room-card/>
-            @endfor
+            @foreach($rooms as $room)
+                <x-frontend.room-card :room="$room"/>
+            @endforeach
 
         </div>
 
