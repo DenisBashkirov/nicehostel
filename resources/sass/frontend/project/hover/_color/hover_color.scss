@@ -1,0 +1,10 @@
+@import "../../bootstrap";
+
+@each $color, $hex in $colors-map {
+    .hover_color-#{$color} {
+        transition: all .15s;
+        &:hover {
+            color: #{$hex};
+        }
+    }
+}
