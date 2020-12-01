@@ -1,5 +1,6 @@
-<header class="header absolute t-0 w-full z-5 text-white">
-    <div class="container flex justify-between xs-sm:h-48 md-xl:h-64 flex items-center">
+<header class="header xs-sm:fixed t-0 w-full z-5 text-white">
+
+    <div class="container flex justify-between xs-sm:h-48 md-xl:h-64 flex items-center z-3">
 
         <div class="md-xl:flex items-center">
 
@@ -9,7 +10,7 @@
                 </picture>
             </a>
 
-            <nav class="header__nav sx-32 xs-sm:hidden md-lg:ml-40px xl:ml-80px text-20">
+            <nav class="header__nav xs-sm:hidden sx-32 md-lg:ml-40px xl:ml-80px text-20">
                 <a class="no-underline text-white" href="#hostels">Наши хостелы</a>
                 <a class="no-underline text-white" href="#contacts">Контакты</a>
             </nav>
@@ -27,4 +28,16 @@
         </button>
 
     </div>
+
+    <div class="header__nav_mobile container flex justify-center fixed h-screen w-full t-0 xs-sm:pt-180px z-2">
+
+        <div class="overlay op-85" style="background: #000"></div>
+
+        <nav class="xs-sm:flex-col sy-32 text-32 font-500 text-center">
+            <a class="no-underline text-white" href="#hostels">Наши хостелы</a>
+            <a class="no-underline text-white" href="#contacts">Контакты</a>
+        </nav>
+
+    </div>
+
 </header>
