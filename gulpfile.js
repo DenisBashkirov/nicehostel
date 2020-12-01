@@ -60,7 +60,7 @@ gulp.task('img-min', done => {
 });
 
 gulp.task('webp', () =>
-    gulp.src('./resources/img/**/*')
+    gulp.src('./public/img/**/*')
         .pipe(webp())
         .pipe(gulp.dest('./public/img/'))
 );
