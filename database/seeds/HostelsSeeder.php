@@ -33,49 +33,56 @@ class HostelsSeeder extends Seeder
                 'address' => 'ул. Садовая-Черногрязская, д. 59, кв. 1',
                 'route' => 'sadovaya-chernogryazsckaya',
                 'phone' => '+7(985)050-00-85',
-                'email' => 'red@nicehostel.ru'
+                'email' => 'red@nicehostel.ru',
+                'about' => ''
             ],
             [
                 'city' => 'Иваноно',
                 'address' => 'проспект Ленина, 20',
                 'route' => 'ivanovo',
                 'phone' => '+7(920)356-83-37',
-                'email' => 'ivanovo@nicehostel.ru'
+                'email' => 'ivanovo@nicehostel.ru',
+                'about' => ''
             ],
             [
                 'city' => 'Тюмень',
                 'address' => 'ул. Миусская, д.83',
                 'route' => 'tumen',
                 'phone' => '+7(952)671-60-60',
-                'email' => 'tmn-m@nicehostel.ru'
+                'email' => 'tmn-m@nicehostel.ru',
+                'about' => ''
             ],
             [
                 'city' => 'Пенза',
                 'address' => 'улица Свердлова, 49',
                 'route' => 'penza',
                 'phone' => '+7(8412)23-51-15',
-                'email' => 'penza@nicehostel.ru'
+                'email' => 'penza@nicehostel.ru',
+                'about' => ''
             ],
             [
                 'city' => 'Красногорск',
                 'address' => 'Ильинский бульвар, д 8',
                 'route' => 'krasnogorsk',
                 'phone' => '+7(968)7777-550',
-                'email' => 'crocus@nicehostel.ru'
+                'email' => 'crocus@nicehostel.ru',
+                'about' => ''
             ],
             [
                 'city' => 'Рязань',
                 'address' => 'Первомайский проспект, дом 62',
                 'route' => 'ryazan',
                 'phone' => '+7(4912)983-983',
-                'email' => 'ryazan@nicehostel.ru'
+                'email' => 'ryazan@nicehostel.ru',
+                'about' => ''
             ],
             [
                 'city' => 'Сочи',
                 'address' => 'Виноградный переулок, 2а',
                 'route' => 'sochi',
                 'phone' => '+7(862)233-78-88',
-                'email' => 'sochi@nicehostel.ru'
+                'email' => 'sochi@nicehostel.ru',
+                'about' => ''
             ],
         ];
 
