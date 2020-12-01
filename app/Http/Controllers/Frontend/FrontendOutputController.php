@@ -9,6 +9,7 @@ use App\Hostel;
 use App\NavMenuItem;
 use App\Page;
 use App\PortfolioItem;
+use App\Room;
 use App\ServiceType;
 use App\TeamPerson;
 use Illuminate\Http\Request;
@@ -45,9 +46,10 @@ class FrontendOutputController extends FrontendBaseController
     public function hostel(String $route) {
 
         $hostel = Hostel::where('route', $route)->first();
+        $min_price = Room::where('hostel_id', $hostel->id)->min('price');
 
         $this->varsAdd('meta_title', 'Nicehostel | г. ' . $hostel->city . ', ' . $hostel->address);
-        $this->varsAdd('meta_description', 'Уютный хостелNicehostel | г. ' . $hostel->city . ', ' . $hostel->address);
+        $this->varsAdd('meta_description', 'Уютный хостел в г. ' . $hostel->city . '. Размещение от ' . $min_price . 'р . Адрес: ' . $hostel->address . '.');
 
         $this->varsAdd('phone', $hostel->phone);
         $this->varsAdd('address', $hostel->address);
