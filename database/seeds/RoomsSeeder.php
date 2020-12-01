@@ -21,13 +21,13 @@ class RoomsSeeder extends Seeder
             [
                 'hostel_id' => 1,
                 'name' => 'Кровать в общем 6-местном номере',
-                'slug' => '8-pers-dorm-room',
+                'slug' => '6-pers-dorm-room-mw',
                 'price' => 610,
             ],
             [
                 'hostel_id' => 1,
                 'name' => 'Кровать в общем четырехместном номере',
-                'slug' => '6-pers-dorm-room',
+                'slug' => '4-pers-dorm-room-mw',
                 'price' => 850,
             ],
             [
