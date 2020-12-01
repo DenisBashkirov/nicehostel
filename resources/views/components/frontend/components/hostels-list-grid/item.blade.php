@@ -9,7 +9,7 @@
     <p class="hostels-list-grid__item-address flex-1 mt-8 xs:text-20 sm-xl:text-24">{{ $hostel->address }}</p>
 
     <div class="mt-20">
-        <x-frontend.components.button.green color="green-0" font-size="text-18" text="Подробнее" link="{{ '/hostel/' . $hostel->route }}"/>
+        <x-frontend.components.button.green color="green-0" font-size="text-18" text="Подробнее" link="{{ route('hostel', $hostel->route) }}"/>
     </div>
 
 </div>

@@ -15,14 +15,14 @@ class HostelsSeeder extends Seeder
             [
                 'city' => 'Москва',
                 'address' => 'ул. Земляной вал, 38-40с5',
-                'route' => 'moscow/zemlyanoy-val',
+                'route' => 'zemlyanoy-val',
                 'phone' => '+7(985)986-60-13',
                 'email' => 'kurskaya@nicehostel.ru'
             ],
             [
                 'city' => 'Москва',
                 'address' => 'ул. Садовая-Черногрязская, д. 59, кв. 1',
-                'route' => 'moscow/sadovaya-chernogryazsckaya',
+                'route' => 'sadovaya-chernogryazsckaya',
                 'phone' => '+7(985)050-00-85',
                 'email' => 'red@nicehostel.ru'
             ],
@@ -70,6 +70,6 @@ class HostelsSeeder extends Seeder
             ],
         ];
 
-        DB::table('hostel')->insert($data);
+        DB::table('hostels')->insert($data);
     }
 }
