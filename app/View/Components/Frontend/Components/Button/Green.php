@@ -6,7 +6,6 @@ use Illuminate\View\Component;
 
 class Green extends Component
 {
-    public $color;
     public $fontSize;
     public $text;
     public $link;
@@ -18,9 +17,8 @@ class Green extends Component
      * @param  string  $fontSize
      * @return void
      */
-    public function __construct($color, $fontSize, $text, $link)
+    public function __construct($fontSize, $text, $link)
     {
-        $this->color = $color;
         $this->fontSize = $fontSize;
         $this->text = $text;
         $this->link = $link;

@@ -9,7 +9,7 @@
         <p class="xs-sm:text-24 md-xl:text-36">г. {{ $hostel->city . ', ' . $hostel->address }}</p>
 
         <div class="mt-40">
-            <x-frontend.components.button.green color="green-0" font-size="xs-sm:text-18 md-xl:text-20" text="Номера и цены" link="#rooms"/>
+            <x-frontend.components.button.green font-size="xs-sm:text-18 md-xl:text-20" text="Номера и цены" link="#rooms"/>
         </div>
 
     </div>
