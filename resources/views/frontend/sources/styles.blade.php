@@ -1,5 +1,5 @@
 @if(env('APP_ENV') == 'production')
-    <link rel="stylesheet" href="{{ asset('css/critical.min.css') }}">
+    <link rel="preload" href="{{ asset('css/critical.min.css') }}" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="{{ asset('css/main.min.css') }}" as="style" onload="this.rel='stylesheet'">
 @else
     <link rel="stylesheet" href="{{ asset('css/framework.css') }}">
