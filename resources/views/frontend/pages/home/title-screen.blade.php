@@ -4,7 +4,9 @@
         <source srcset="{{ asset('img/home/title-background.webp') }}" media="(min-width: 768px)" type="image/webp">
         <source srcset="{{ asset('img/home/title-background.jpg') }}" media="(min-width: 768px)">
 
-        <source srcset="{{ asset('img/home/title-background_sm.webp') }}" type="image/webp">
+        <source data-srcset="{{ asset('img/home/title-background_sm@2.webp') }}" media="(-webkit-min-device-pixel-ratio: 2)" type="image/webp">
+        <source data-srcset="{{ asset('img/home/title-background-sm.webp') }}" media="(-webkit-device-pixel-ratio: 1)" type="image/webp">
+        <source data-srcset="{{ asset('img/home/title-background@2.jpg') }}" media="(-webkit-min-device-pixel-ratio: 2)">
         <img class="overlay w-full h-full object-cover" src="{{ asset('img/home/title-background_sm.jpg') }}" alt="Nicehostel">
 
     </picture>
