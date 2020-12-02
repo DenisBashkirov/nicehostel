@@ -4,10 +4,15 @@
         <source srcset="{{ asset('img/home/title-background.webp') }}" media="(min-width: 768px)" type="image/webp">
         <source srcset="{{ asset('img/home/title-background.jpg') }}" media="(min-width: 768px)">
 
-        <source data-srcset="{{ asset('img/home/title-background_sm@2.webp') }}" media="(-webkit-min-device-pixel-ratio: 2)" type="image/webp">
-        <source data-srcset="{{ asset('img/home/title-background-sm.webp') }}" media="(-webkit-device-pixel-ratio: 1)" type="image/webp">
-        <source data-srcset="{{ asset('img/home/title-background@2.jpg') }}" media="(-webkit-min-device-pixel-ratio: 2)">
-        <img class="overlay w-full h-full object-cover" src="{{ asset('img/home/title-background_sm.jpg') }}" alt="Nicehostel">
+        <source srcset="{{ asset('img/home/title-background_sm.webp') }}" media="(min-width: 375px)" type="image/webp">
+        <source srcset="{{ asset('img/home/title-background_sm.jpg') }}" media="(min-width: 375px)">
+        <source srcset="{{ asset('img/home/title-background_sm@2.webp') }}" media="(min-width: 375px)" media="(-webkit-min-device-pixel-ratio: 2)" type="image/webp">
+        <source srcset="{{ asset('img/home/title-background_sm@2.jpg') }}" media="(min-width: 375px)" media="(-webkit-min-device-pixel-ratio: 2)">
+
+        <source data-srcset="{{ asset('img/home/title-background_xs@2.webp') }}" media="(-webkit-min-device-pixel-ratio: 2)" type="image/webp">
+        <source data-srcset="{{ asset('img/home/title-background_xs.webp') }}" media="(-webkit-device-pixel-ratio: 1)" type="image/webp">
+        <source data-srcset="{{ asset('img/home/title-background_xs@2.jpg') }}" media="(-webkit-min-device-pixel-ratio: 2)">
+        <img class="overlay w-full h-full object-cover" src="{{ asset('img/home/title-background_xs.jpg') }}" alt="Nicehostel">
 
     </picture>
     <div class="container md-lg:text-center">
