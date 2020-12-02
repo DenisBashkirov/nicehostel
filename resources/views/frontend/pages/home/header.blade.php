@@ -6,7 +6,7 @@
 
             <a class="header__logo" href="{{ route('home') }}">
                 <picture>
-                    <img class="xs-sm:h-36px md-xl:h-40" src="{{ asset('img/logo/header.png') }}" alt="Nicehostel суть уютных хостелов логотип">
+                    <img class="xs-sm:h-36px md-xl:h-40" src="{{ asset('img/logo/header.png') }}" width="48" height="40" alt="Nicehostel суть уютных хостелов логотип">
                 </picture>
             </a>
 
