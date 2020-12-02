@@ -1,4 +1,4 @@
-<header class="header xs-sm:fixed t-0 w-full z-5 text-white">
+<header class="header absolute xs-sm:absolute t-0 w-full z-5 text-white">
 
     <div class="container flex justify-between xs-sm:h-48 md-xl:h-64 flex items-center z-3">
 
@@ -21,7 +21,7 @@
             <a class="no-underline text-white text-24 font-700 hover_color-grey-10" href="tel:{{ $phone }}">{{ $phone }}</a>
         </div>
 
-        <button class="hamburger md-xl:hidden" type="button">
+        <button class="hamburger hamburger--squeeze md-xl:hidden js-hamburger" type="button">
             <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
             </span>
@@ -29,7 +29,7 @@
 
     </div>
 
-    <div class="header__nav_mobile container flex justify-center fixed h-screen w-full t-0 xs-sm:pt-180px z-2">
+    <div class="header__nav_mobile hidden container flex justify-center fixed h-screen w-full t-0 xs-sm:pt-180px z-2 js-mobile_nav">
 
         <div class="overlay op-85" style="background: #000"></div>
 

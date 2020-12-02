@@ -26,6 +26,7 @@
 @include('frontend.sections.header')
 @yield('main_content')
 
+@include('frontend.sources.scripts')
 @yield('page_scripts')
 
 </body>
