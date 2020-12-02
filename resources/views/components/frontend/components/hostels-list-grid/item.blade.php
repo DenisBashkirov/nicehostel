@@ -2,7 +2,7 @@
 
     <picture class="hostels-list-grid__item-img w-full">
         <source srcset="{{ asset('img/hostels/' . $hostel->route . '/background_preview.webp') }}" type="image/webp">
-        <img class="b-radius-3" src="{{ asset('img/hostels/' . $hostel->route . '/background_preview.jpg') }}" alt="">
+        <img class="b-radius-3" src="{{ asset('img/hostels/' . $hostel->route . '/background_preview.jpg') }}" width="328" height="183" alt="">
     </picture>
 
     <p class="hostels-list-grid__item-city mt-20 text-24 font-700 lh-120">{{ $hostel->city }}</p>
