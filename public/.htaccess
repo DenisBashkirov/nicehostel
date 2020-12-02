@@ -19,3 +19,13 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+<ifModule mod_expires.c>
+
+ ExpiresActive On
+ #кэшировать флэш и изображения на одну неделю
+ ExpiresByType image/webp "access plus 5 minutes"
+ ExpiresByType image/jpeg "access plus 5 days"
+ ExpiresByType image/png "access plus 5 days"
+
+</ifModule>
