@@ -1,5 +1,6 @@
-<div class="title-screen flex items-center xs-sm:h-468px md-xl:h-600px text-white"">
+<div class="title-screen flex items-center xs-sm:h-468px md-xl:h-600px text-white">
     <picture class="overlay">
+        <source srcset="{{ asset('img/home/title-background.webp') }}" type="image/webp">
         <img class="overlay w-full h-full object-cover" src="{{ asset('img/home/title-background.jpg') }}" alt="Nicehostel">
     </picture>
     <div class="container md-lg:text-center">
