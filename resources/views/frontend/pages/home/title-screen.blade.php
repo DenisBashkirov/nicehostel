@@ -1,8 +1,8 @@
 <div class="title-screen flex items-center xs-sm:h-468px md-xl:h-600px text-white">
     <picture class="overlay">
 
-        <source data-srcset="{{ asset('img/home/title-background.webp') }}" media="(min-width: 768px)" type="image/webp">
-        <source data-srcset="{{ asset('img/home/title-background.jpg') }}" media="(min-width: 768px)">
+        <source srcset="{{ asset('img/home/title-background.webp') }}" media="(min-width: 768px)" type="image/webp">
+        <source srcset="{{ asset('img/home/title-background.jpg') }}" media="(min-width: 768px)">
 
         <source srcset="{{ asset('img/home/title-background_sm.webp') }}" type="image/webp">
         <img class="overlay w-full h-full object-cover" src="{{ asset('img/home/title-background_sm.jpg') }}" alt="Nicehostel">
