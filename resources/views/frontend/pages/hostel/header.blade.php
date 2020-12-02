@@ -29,14 +29,16 @@
 
     </div>
 
-    <div class="header__nav_mobile hidden container flex justify-center fixed h-screen w-full t-0 xs-sm:pt-180px z-2 js-mobile_nav">
+    <div class="header__nav_mobile hidden container fixed h-screen w-full t-0 xs-sm:pt-180px z-2 js-mobile_nav">
 
         <div class="overlay op-85" style="background: #000"></div>
 
-        <nav class="xs-sm:flex-col sy-32 text-32 font-500 text-center">
-            <a class="no-underline text-white" href="#rooms">Номера и цены</a>
-            <a class="no-underline text-white" href="#contacts">Контакты</a>
-        </nav>
+        <div class="flex justify-center">
+            <nav class="xs-sm:flex-col sy-32 text-32 font-500 text-center">
+                <a class="no-underline text-white" href="#rooms">Номера и цены</a>
+                <a class="no-underline text-white" href="#contacts">Контакты</a>
+            </nav>
+        </div>
 
     </div>
 
