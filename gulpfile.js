@@ -64,3 +64,17 @@ gulp.task('webp', () =>
         .pipe(webp())
         .pipe(gulp.dest('./public/img/'))
 );
+
+gulp.task('critical-css', function () {
+    return gulp.src('./public/css/main.min.css')
+        .pipe(criticalCss({
+            out: 'critical.min.css',
+            url: 'http://nicehostel',
+            width: 1800,
+            height: 900,
+            strict: true,
+            userAgent: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+        }))
+        .pipe(cleanCSS({level: 2}))
+        .pipe(gulp.dest('./public/css/'));
+});
