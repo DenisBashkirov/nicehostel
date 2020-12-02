@@ -1,8 +1,7 @@
 <div class="hostels-list-grid__item flex-col w-full mx-auto xs-sm:max-w-328 md-xl:p-20 b-radius-5">
 
     <picture class="hostels-list-grid__item-img w-full">
-        <source>
-        <source data-srcset="{{ asset('img/hostels/' . $hostel->route . '/background.webp') }}" type="image/webp">
+        <source srcset="{{ asset('img/hostels/' . $hostel->route . '/background.webp') }}" type="image/webp">
         <img class="b-radius-3" src="{{ asset('img/hostels/' . $hostel->route . '/background.jpg') }}" alt="">
     </picture>
 
