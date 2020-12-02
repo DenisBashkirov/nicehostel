@@ -882,7 +882,7 @@ img {
 
 .wave {
   width: 100%;
-  background-image: url("/public/img/waves/wave.png");
+  background-image: url("/img/waves/wave.png");
   background-size: cover; }
   @media (max-width: 767px) {
     .wave {
@@ -986,10 +986,6 @@ img {
 .button_color-white-90 {
   background-color: #FFFFFF;
   color: #fff; }
-
-@media (min-width: 768px) {
-  .hostels-list-grid__item {
-    box-shadow: 0 0 6px rgba(18, 114, 90, 0.25); } }
 
 .hover_bg-green-0:hover {
   background-color: #1BC69B; }
@@ -1159,12 +1155,16 @@ img {
   .hover_color-white-90:hover {
     color: #FFFFFF; }
 
+@media (min-width: 768px) {
+  .hostels-list-grid__item {
+    box-shadow: 0 0 6px rgba(18, 114, 90, 0.25); } }
+
 .title-screen__overlay {
   background: rgba(0, 0, 0, 0.5); }
 
 .wave_reverse {
   width: 100%;
-  background-image: url("/public/img/waves/wave.png");
+  background-image: url("/img/waves/wave.png");
   background-size: cover;
   transform: rotate(180deg); }
   @media (max-width: 767px) {
