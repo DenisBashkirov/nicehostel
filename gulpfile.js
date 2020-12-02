@@ -8,6 +8,7 @@ const postcss = require('gulp-postcss');
 const uncss = require('postcss-uncss');
 const webp = require('gulp-webp');
 const imagemin = require('gulp-imagemin');
+const penthouse = require('penthouse-pages');
 
 
 gulp.task('sass', () => {
@@ -69,6 +70,14 @@ gulp.task('critical-css', function () {
     return gulp.src('./public/css/main.min.css')
         .pipe(criticalCss({
             out: '/critical.css',
+            pages: [
+                {
+                    name: 'index',
+                    url: '',
+                },
+                'hostels/ivanovo',
+            ],
+            baseUrl: 'http://nicehostel/',
             url: 'http://nicehostel',
             width: 1800,
             height: 900,
@@ -76,4 +85,31 @@ gulp.task('critical-css', function () {
         }))
         .pipe(cleanCSS({level: 2}))
         .pipe(gulp.dest('./public/css/'));
+});
+
+gulp.task('penthouse', () => {
+    return penthouse({
+        // penthouse-page options
+        pages: [
+            {
+                name: 'index',
+                url: '',
+            },
+            'hostels/ivanovo',
+        ],
+        baseUrl: 'http://nicehostel/',
+        dest: './public/css/critical',
+        // penthouse options
+        css: './public/css/main.min.css',
+        width: 1300,
+        height: 900,
+        strict: true,
+    });
+});
+
+gulp.task('concat-critical', () => {
+    return gulp.src('./public/css/critical/*.css')
+        .pipe(concat('critical.min.css'))
+        .pipe(cleanCSS({level: 2}))
+        .pipe(gulp.dest('./public/css'));
 });
