@@ -26,9 +26,17 @@ gulp.task('watch-styles', () => {
 });
 
 gulp.task('concat-css', () => {
-    return gulp.src('./public/css/*.css')
+    return gulp.src(['./public/css/frontend.css', './public/css/framework.css'])
         .pipe(concat('main.min.css'))
-        .pipe(cleanCSS({level: 2}))
+        .pipe(cleanCSS({
+            level: {
+                1: {
+                    normalizeUrls: false
+                },
+                2: {
+                }
+            }
+        }))
         .pipe(autoprefixer({
             cascade: true
         }))
