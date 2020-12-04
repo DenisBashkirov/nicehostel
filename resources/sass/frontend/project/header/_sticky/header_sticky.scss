@@ -1,0 +1,8 @@
+@import "../../bootstrap";
+
+.header_sticky {
+    height: 48px !important;
+    background: $green-30;
+    position: fixed !important;
+    top: 0;
+}

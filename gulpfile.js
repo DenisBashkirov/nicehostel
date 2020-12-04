@@ -52,6 +52,7 @@ gulp.task('uncss', () => {
             ],
             ignore: [
                 /.is-active/,
+                /.header_sticky/,
             ]
         })
     ];

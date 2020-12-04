@@ -987,6 +987,12 @@ img {
   background-color: #FFFFFF;
   color: #fff; }
 
+.header_sticky {
+  height: 48px !important;
+  background: #168E70;
+  position: fixed !important;
+  top: 0; }
+
 @media (min-width: 768px) {
   .hostels-list-grid__item {
     box-shadow: 0 0 6px rgba(18, 114, 90, 0.25); } }
