@@ -88,4 +88,18 @@ $(document).ready(function () {
         }
     });
 
+    /*
+    STICKY HEADER
+     */
+    let $header = $('header');
+    let scrollToStick = 500;
+    $(window).on('scroll', function () {
+        let scroll = $(this).scrollTop();
+        if(scroll >= scrollToStick) {
+            $header.addClass('header_sticky');
+        } else {
+            $header.removeClass('header_sticky');
+        }
+    });
+
 });
