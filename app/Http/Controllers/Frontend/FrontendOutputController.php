@@ -33,7 +33,7 @@ class FrontendOutputController extends FrontendBaseController
         $this->varsAdd('meta_title', 'Nicehostel - Сеть уютных хостелов');
         $this->varsAdd('meta_description', 'Nicehostel - сеть хостелов в городах России, работающих по франшизе.');
 
-        $this->varsAdd('phone', '8(800)505-16-57');
+        $this->varsAdd('phone', '+7(903)710-86-71');
         $this->varsAdd('address', ' г. Москва, ул. Тушинская, дом 17, офис 33');
         $this->varsAdd('email', 'info@nicehostel.ru');
 
