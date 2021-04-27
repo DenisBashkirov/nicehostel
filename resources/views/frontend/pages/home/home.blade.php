@@ -18,6 +18,9 @@
 
     <script>
 
+        let mapDiv = document.getElementById('map');
+        console.log(mapDiv.getBoundingClientRect().top + pageYOffset);
+        console.log(window.pageYOffset);
         let myMap;
         let YaMapsShown = false;
 
