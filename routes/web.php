@@ -16,6 +16,5 @@ use App\Hostel;
 
 Route::get('/', ['uses' => 'Frontend\FrontendOutputController@home', 'as' => 'home']);
 
-foreach (Hostel::all() as $hostel) {
-    Route::get('hostels/{route}', ['uses' => 'Frontend\FrontendOutputController@hostel', 'as' => 'hostel']);
-}
+Route::get('/{hostel}', ['uses' => 'Frontend\FrontendOutputController@hostel', 'as' => 'hostel']);
+Route::get('/{hostel}/booking', ['uses' => 'Frontend\FrontendOutputController@booking', 'as' => 'booking']);

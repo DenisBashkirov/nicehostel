@@ -3,6 +3,5 @@
 @each $color, $hex in $colors-map {
     .button_color-#{$color} {
         background-color: #{$hex};
-        color: #fff
     }
 }

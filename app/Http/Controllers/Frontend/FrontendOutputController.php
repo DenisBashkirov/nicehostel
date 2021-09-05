@@ -60,4 +60,9 @@ class FrontendOutputController extends FrontendBaseController
         $this->template .= 'hostel.hostel';
         return $this->renderOutput();
     }
+
+    public function booking() {
+        $this->template .= 'booking';
+        return $this->renderOutput();
+    }
 }

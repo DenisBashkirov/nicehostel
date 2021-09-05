@@ -159,10 +159,13 @@ img {
 
 .button {
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   text-transform: uppercase;
   padding: .66em 1em;
-  transition: all .25s; }
+  transition: all .25s;
+  text-align: center; }
 
 /*!
  * Hamburgers
@@ -904,88 +907,67 @@ img {
   /* Chrome 19+ & Safari 6+ */ }
 
 .button_color-green-0 {
-  background-color: #1BC69B;
-  color: #fff; }
+  background-color: #1BC69B; }
 
 .button_color-green-10 {
-  background-color: #19B18B;
-  color: #fff; }
+  background-color: #19B18B; }
 
 .button_color-green-20 {
-  background-color: #179F7D;
-  color: #fff; }
+  background-color: #179F7D; }
 
 .button_color-green-30 {
-  background-color: #168E70;
-  color: #fff; }
+  background-color: #168E70; }
 
 .button_color-green-40 {
-  background-color: #148065;
-  color: #fff; }
+  background-color: #148065; }
 
 .button_color-green-50 {
-  background-color: #12725A;
-  color: #fff; }
+  background-color: #12725A; }
 
 .button_color-green-60 {
-  background-color: #116751;
-  color: #fff; }
+  background-color: #116751; }
 
 .button_color-green-70 {
-  background-color: #105C49;
-  color: #fff; }
+  background-color: #105C49; }
 
 .button_color-green-80 {
-  background-color: #0E5241;
-  color: #fff; }
+  background-color: #0E5241; }
 
 .button_color-green-90 {
-  background-color: #0D4A3B;
-  color: #fff; }
+  background-color: #0D4A3B; }
 
 .button_color-grey-0 {
-  background-color: #F4F4F4;
-  color: #fff; }
+  background-color: #F4F4F4; }
 
 .button_color-grey-10 {
-  background-color: #E6E6E6;
-  color: #fff; }
+  background-color: #E6E6E6; }
 
 .button_color-grey-20 {
-  background-color: #CFCFCF;
-  color: #fff; }
+  background-color: #CFCFCF; }
 
 .button_color-grey-30 {
-  background-color: #BABABA;
-  color: #fff; }
+  background-color: #BABABA; }
 
 .button_color-grey-40 {
-  background-color: #A7A7A7;
-  color: #fff; }
+  background-color: #A7A7A7; }
 
 .button_color-grey-50 {
-  background-color: #979797;
-  color: #fff; }
+  background-color: #979797; }
 
 .button_color-grey-60 {
-  background-color: #888888;
-  color: #fff; }
+  background-color: #888888; }
 
 .button_color-grey-70 {
-  background-color: #7A7A7A;
-  color: #fff; }
+  background-color: #7A7A7A; }
 
 .button_color-grey-80 {
-  background-color: #6E6E6E;
-  color: #fff; }
+  background-color: #6E6E6E; }
 
 .button_color-grey-90 {
-  background-color: #636363;
-  color: #fff; }
+  background-color: #636363; }
 
 .button_color-white-90 {
-  background-color: #FFFFFF;
-  color: #fff; }
+  background-color: #FFFFFF; }
 
 .header_sticky {
   height: 48px !important;

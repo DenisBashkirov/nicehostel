@@ -4,7 +4,7 @@ namespace App\View\Components\Frontend\Components\Button;
 
 use Illuminate\View\Component;
 
-class Green extends Component
+class White extends Component
 {
     public $fontSize;
     public $text;
@@ -33,6 +33,6 @@ class Green extends Component
      */
     public function render()
     {
-        return view('components.frontend.components.button.green');
+        return view('components.frontend.components.button.white');
     }
 }

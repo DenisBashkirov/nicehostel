@@ -10,5 +10,8 @@
         <p class="font-700">{{ number_format($room->price, 0, '', ' ') }} Р</p>
         <p class="op-30"> / сутки</p>
     </div>
+    <div class="mt-12">
+        <x-frontend.components.button.green font-size="text-18" text="Бронировать" link="{{ route('booking', $room->hostel->route) }}?&onlyrooms={{ $room->bnovo_id }}"/>
+    </div>
 
 </div>
