@@ -16,5 +16,11 @@ use App\Hostel;
 
 Route::get('/', ['uses' => 'Frontend\FrontendOutputController@home', 'as' => 'home']);
 
-Route::get('/hostels/{hostel}', ['uses' => 'Frontend\FrontendOutputController@hostel', 'as' => 'hostel']);
+// новый маршрут
+Route::get('/{hostel}', ['uses' => 'Frontend\FrontendOutputController@hostel', 'as' => 'hostel']);
+// старый url с /hostels/ был в проекте изначально, но потом его заменили на более лаконичный, старый оставили для доступнсти размещённых ссылок
+Route::get('/hostels/{hostel}', function ($hostel) {
+    return redirect(route('hostel', $hostel));
+});
+
 Route::get('/{hostel}/booking', ['uses' => 'Frontend\FrontendOutputController@booking', 'as' => 'booking']);
