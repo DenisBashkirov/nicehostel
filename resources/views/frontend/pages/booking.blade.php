@@ -28,7 +28,7 @@
 
     rooms: '',
 
-    IsMobile: '0',
+    IsMobile: '1',
 
     scroll_to_rooms: '0'
 
