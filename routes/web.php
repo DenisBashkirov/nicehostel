@@ -16,5 +16,5 @@ use App\Hostel;
 
 Route::get('/', ['uses' => 'Frontend\FrontendOutputController@home', 'as' => 'home']);
 
-Route::get('/{hostel}', ['uses' => 'Frontend\FrontendOutputController@hostel', 'as' => 'hostel']);
+Route::get('/hostels/{hostel}', ['uses' => 'Frontend\FrontendOutputController@hostel', 'as' => 'hostel']);
 Route::get('/{hostel}/booking', ['uses' => 'Frontend\FrontendOutputController@booking', 'as' => 'booking']);
